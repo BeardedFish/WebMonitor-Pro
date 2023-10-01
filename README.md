@@ -35,4 +35,4 @@ docker build -t darian-benam/webmonitor-pro .
 docker run -d darian-benam/webmonitor-pro
 ```
 
-**NOTE:** By default, `WebMonitor Pro` is scheduled to run every 12 hours according to it's `Cron` job configuration.
+**NOTE:** By default, `WebMonitor Pro` is scheduled to run every 12 hours according to its `Cron` job configuration.
