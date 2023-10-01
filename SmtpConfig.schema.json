@@ -1,0 +1,32 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"type": "object",
+	"properties": {
+		"Server": {
+			"type": "string"
+		},
+		"Port": {
+			"type": "integer"
+		},
+		"Username": {
+			"type": "string"
+		},
+		"Password": {
+			"type": "string"
+		},
+		"NoReplyEmailAddress": {
+			"type": "string"
+		},
+		"AlertReceiverEmailAddress": {
+			"type": "string"
+		}
+	},
+	"required": [
+		"Server",
+		"Port",
+		"Username",
+		"Password",
+		"NoReplyEmailAddress",
+		"AlertReceiverEmailAddress"
+	]
+}

@@ -1,0 +1,35 @@
+{
+	"$schema": "./AppConfig.schema.json",
+	"WebMonitorProVersion": "1.0.0",
+	"NotificationEmailTemplatePath": "./templates/notification.html",
+	"Services": [
+		{
+			"Endpoint": "https://chat.benam.io",
+			"ExpectedHttpResponseCode": 200
+		},
+		{
+			"Endpoint": "https://benam.io",
+			"ExpectedHttpResponseCode": 403
+		},
+		{
+			"Endpoint": "https://fifteenpuzzle.darianbenam.com",
+			"ExpectedHttpResponseCode": 200
+		},
+		{
+			"Endpoint": "https://prospectivecareerdatabase.darianbenam.com",
+			"ExpectedHttpResponseCode": 200
+		},
+		{
+			"Endpoint": "https://status.darianbenam.com",
+			"ExpectedHttpResponseCode": 200
+		},
+		{
+			"Endpoint": "https://www.darianbenam.com",
+			"ExpectedHttpResponseCode": 200
+		},
+		{
+			"Endpoint": "https://iusearchbtw.me",
+			"ExpectedHttpResponseCode": 200
+		}
+	]
+}

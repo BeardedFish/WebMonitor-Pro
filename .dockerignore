@@ -1,0 +1,10 @@
+.git/
+.vscode/
+.editorconfig
+.gitattributes
+.gitignore
+AppConfig.schema.json
+Dockerfile
+LICENCE
+README.md
+SmtpConfig.schema.json
