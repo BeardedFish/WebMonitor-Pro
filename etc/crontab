@@ -1,1 +1,1 @@
-0 */12 * * * pwsh /app/webmonitor-pro/App.ps1 >> /var/log/webmonitor-pro.log 2&>1
+0 */6 * * * pwsh /apps/webmonitor-pro/App.ps1 | Out-File /var/log/webmonitor-pro.log -Append
